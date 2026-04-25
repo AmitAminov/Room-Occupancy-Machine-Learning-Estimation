@@ -7,11 +7,11 @@ analysis.py - Preprocessing the data (normalization, train-test split) training 
 1. Data is distributed as collected originally.
 2. Dataset is balanced using SMOTE (data augmentation technique).
 
-streamlit_visualization.py - Creates a streamlit dashboard including the main sensors data (4 time series measurements of light, sound and temperature) and the trained QDA model's predictions (added in analysis.py and saced in Occupancy_Estimation_Prediction.csv).
+streamlit_visualization.py - Creates a streamlit dashboard including the main sensors data (4 time series measurements of light, sound and temperature) and the trained QDA model's predictions (added in analysis.py and saced in Occupancy_Estimation_Prediction.csv). Should be run using the command  streamlit run streamlit_visualization.py
 
 create_final_html.py - Creates a sharable HTML file of the interactive dashboard showing the data.
 
-* Files should be run in the mentioned order to run properly.
+* Files should be run in the mentioned order, while the working directory is "Room_Occupancy", to run properly.
 
 Data was created, collected and analyzed in the following paper: A. P. Singh, V. Jain, S. Chaudhari, F. A. Kraemer, S. Werner and V. Garg, "Machine Learning-Based Occupancy Estimation Using Multivariate Sensor Nodes," 2018 IEEE Globecom Workshops (GC Wkshps), Abu Dhabi, United Arab Emirates, 2018, pp. 1-6, doi: 10.1109/GLOCOMW.2018.8644432. keywords: {Support vector machines;Estimation;Measurement;Temperature sensors;Principal component analysis;Radio frequency;Hidden Markov models;Internet of Things;Machine Learning;Occupancy Estimation;Wireless Sensor Network}
 
