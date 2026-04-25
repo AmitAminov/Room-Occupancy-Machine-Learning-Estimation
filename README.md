@@ -14,7 +14,9 @@ create_final_html.py - Creates a sharable HTML file of the interactive dashboard
 * Files should be run in the mentioned order to run properly.
 
 Data was created, collected and analyzed in the following paper: A. P. Singh, V. Jain, S. Chaudhari, F. A. Kraemer, S. Werner and V. Garg, "Machine Learning-Based Occupancy Estimation Using Multivariate Sensor Nodes," 2018 IEEE Globecom Workshops (GC Wkshps), Abu Dhabi, United Arab Emirates, 2018, pp. 1-6, doi: 10.1109/GLOCOMW.2018.8644432. keywords: {Support vector machines;Estimation;Measurement;Temperature sensors;Principal component analysis;Radio frequency;Hidden Markov models;Internet of Things;Machine Learning;Occupancy Estimation;Wireless Sensor Network}
+
 Link to the paper: https://ieeexplore.ieee.org/document/8644432
 
 Data source: Singh, A. & Chaudhari, S. (2018). Room Occupancy Estimation [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5P605.
+
 Link to the data source: https://archive.ics.uci.edu/dataset/864/room+occupancy+estimation
